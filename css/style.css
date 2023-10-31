@@ -383,12 +383,10 @@ a {
         justify-content: space-around;
         width: 100%;
         gap:0px;
-        padding-bottom: 20px;
         font-size: 20px;
     }
     .header-nav a{
         width: 50%;
-        padding-bottom: 20px;
         text-align: center;
         border-top-style: none;
         border-bottom-style: solid;
@@ -467,9 +465,6 @@ a {
     }
     .recherche-filtres-icons{
         padding: 10px 5px 10px 10px;
-    }
-    .circled-icon{
-
     }
     .hebergements-and-populaires{
         flex-direction: column-reverse;
