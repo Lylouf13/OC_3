@@ -220,6 +220,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -403,6 +404,7 @@ a {
     }
     .footer-section{
         width: auto;
+        padding: 0;
     }
     .main-container{
         margin: 0px;
