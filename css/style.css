@@ -242,11 +242,11 @@ a {
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;    
-    cursor: pointer;
 }
 .hebergements-cards .card{
     margin-top: 20px;
     width: 28%;
+    cursor: pointer;
 }
 .hebergements-cards img{
     height: 124px;
@@ -404,6 +404,9 @@ a {
         gap:50px;
         padding:30px;
     }
+    .footer-section{
+        width: auto;
+    }
     .main-container{
         margin: 0px;
         padding:0px
@@ -463,13 +466,14 @@ a {
     }
     .recherche-filtres button{
         width: 45%;
-        height: 65%;
+        height:50px;
         margin-bottom: 15px;
+        padding: 0px;
         text-align: left;
-        font-size: 13px;
+        font-size: 14px;
     }
     .recherche-filtres-icons{
-        padding: 10px 5px 10px 15px;
+        padding: 10px 5px 10px 10px;
     }
     .hebergements-and-populaires{
         flex-direction: column-reverse;
