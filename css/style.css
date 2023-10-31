@@ -113,7 +113,6 @@ a {
     display: flex;  
     flex-direction: row; 
     align-items: center;
-    vertical-align: middle;
     gap:0;
 
     width: fit-content;
@@ -171,7 +170,8 @@ a {
     justify-content: center;
     align-items: center;
     height:inherit;
-    width: 50px;
+    width: 75px;
+    height: 50px;
 
     background-color: var(--main-color);
     border: 2px solid var(--main-color);
@@ -336,22 +336,26 @@ a {
 .activites-cards{
     display: flex;
     flex-direction: row;
+    align-items: stretch;
     justify-content: space-around;
     gap:25px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 .activites-cards .card{
-    height: fit-content;
-    width: fit-content;
     padding:0;
+    width: 25%;
+    overflow: hidden;
     cursor: pointer;
 }
 .activites-cards img{
+    height: 85%;
+    object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 439px;
-    max-width: 280px;
+}
+.activites-cards h3{
+    padding: 0 15px 5px 15px;
 }
 
 .activites-cards .card-title{
@@ -394,10 +398,6 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    .activites-cards .card{
-        height: 100%;
-        width: 200px;
-    }
 
     .activites-cards img{
         height: 200px;
@@ -435,6 +435,9 @@ a {
         color: var(--main-color);
         border-color:var(--main-color);
     }
+    footer{
+        flex-direction: column;
+    }
     .main-container{
         margin: 0px;
         padding:0px
@@ -451,10 +454,16 @@ a {
         width: 100%;
     }
     .recherche-barre{
-        width: 100%
+        width: fit-content;
+        border: solid var(--main-bg-color);
+        border-width: 2px 0 2px 0;
+        border-radius: 15px;
+    }
+    .recherche-barre-icon-container{
+        width:75px;
     }
     .recherche-barre-input{
-        width: 80%;
+        width: 100%;
     }
     .recherche-barre-button{
         display: none;
@@ -508,12 +517,12 @@ a {
         width: 100%;
         height: fit-content;
     }
-
     .activites-cards{
         flex-direction: column;
     }
     .activites-cards .card{
         width: 100%;
+        height: fit-content;
     }
 
     .activites-cards img{

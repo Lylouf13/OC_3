@@ -2,5 +2,17 @@
     "[html]": {
         "editor.tabSize": 4
     },
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "cSpell.words": [
+        "activites",
+        "Activites",
+        "dessous",
+        "filtres",
+        "Filtres",
+        "hebergements",
+        "Hebergements",
+        "populaires",
+        "Populaires",
+        "uniquement"
+    ]
 }
