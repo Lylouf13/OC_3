@@ -210,13 +210,9 @@ a {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    margin-bottom: 2px;
-    width: 20px;
-    height: 20px;
-
+    padding: 7px 10px;
     border: 1px solid var(--border-color);
     border-radius: 100px;
-
     font-size: 10px;
     text-align: center;
 }
@@ -375,6 +371,9 @@ a {
     *{
         margin: 0px;
     }
+    p{
+        margin: 16px 0;
+    }
     header{
         flex-direction: column;
         align-items: center;
@@ -412,15 +411,8 @@ a {
         padding:0px
     }
     .recherche{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         padding-left: 20px;
         padding-right: 20px;
-    }
-    .recherche-title{
-        align-self: flex-start;
     }
     .recherche p{
         width: 100%;
@@ -460,6 +452,7 @@ a {
     .recherche-filtres-button-container{
         display: flex;
         justify-content: space-evenly;
+        align-self: center;
         align-items: center;
         flex-wrap: wrap;
         gap: 5px;
@@ -474,6 +467,9 @@ a {
     }
     .recherche-filtres-icons{
         padding: 10px 5px 10px 10px;
+    }
+    .circled-icon{
+
     }
     .hebergements-and-populaires{
         flex-direction: column-reverse;
