@@ -16,7 +16,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     margin-top:0;
     margin-bottom: 40px;
 }
@@ -28,7 +27,6 @@ header{
 .header-nav{
     display: flex;
     flex-direction: row;
-
     margin-top:0;
     padding: 0;
     gap: 50px;
@@ -44,17 +42,14 @@ header{
 footer{
     display: flex;
     flex-direction: row;
-    gap:20%;
-    
-    padding-left: 25px;
-    padding-bottom: 25px;
-    margin-top: 75px;
     background-color: var(--main-bg-color);
 }
 .footer-section{
     display:flex;
     flex-direction: column;
-    gap: 15px;
+    width: 33%;
+    padding: 20px;
+    gap:15px;
 }
 body {
     display: flex;
@@ -199,7 +194,7 @@ a {
     font-size: 17px;
     font-weight: bold;
 }
-.recherche-filtres-button:hover{
+.recherche-filtres button:hover{
     cursor: pointer;
     background-color: var(--filter-bg-color) ;
 }
@@ -371,6 +366,9 @@ a {
         height: 200px;
         width: 100%;
     }
+    footer{
+        gap:30px
+    }
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -403,6 +401,11 @@ a {
     }
     footer{
         flex-direction: column;
+        gap:50px;
+        padding:30px;
+    }
+    .footer-section{
+        width: 100%;
     }
     .main-container{
         margin: 0px;
@@ -456,17 +459,17 @@ a {
     }
     .recherche-filtres-button-container{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 5px;
     }
     .recherche-filtres button{
         width: 45%;
         height: 65%;
         margin-bottom: 15px;
         text-align: left;
-        font-size: 14px;
+        font-size: 13px;
     }
     .recherche-filtres-icons{
         padding: 10px 5px 10px 15px;
@@ -476,6 +479,7 @@ a {
     }
     .hebergements-and-populaires section{
         border-radius: 0px;
+        padding:20px;
     }
     .hebergements-and-populaires .hebergements{
         background-color: white;
@@ -495,6 +499,7 @@ a {
     }
     .populaires{
         width: 100%;
+        margin-top:0;
         border-radius: 0;
     }
     .populaires-cards{
